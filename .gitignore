@@ -1,7 +1,0 @@
-.env/
-db.sqlite3
-*.pycache
-config/__pycache__/
-book/__pycache__/
-__pycache__/
-*pycache*
