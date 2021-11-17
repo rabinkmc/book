@@ -1,0 +1,15 @@
+{% extends "book/base.html" %} 
+
+{% block title %}
+
+publisher list
+
+{% endblock %}
+
+{% block content %} 
+<ul>
+        {% for publisher in object_list %}
+            <li>{{ publisher.name }}</li>
+        {% endfor %}
+</ul>
+{% endblock %}
